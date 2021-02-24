@@ -1,3 +1,11 @@
+#' Expressed feelings about cats 
+#'
+#' @param love a logical argument indicating whether or not you like cats  
+#'
+#' @return one of two character messages about cat feelings 
+#' @export
+#'
+#' @examples cats(TRUE)
 cats <- function(love = TRUE) {
   if(love == TRUE) {
     msg <- "I love cats!"
